@@ -20,9 +20,9 @@
                 <button name="submit" type="submit" class="btn btn-primary">Login</button>
             </div>
             <div>
-                <li class="nav-item">
-                    <a>Silahkan daftar terlebih dahulu ;)</a>
-                    <button href="/sesi/register" class="btn btn-primsry text-center border mx-auto" type="submit">Sing in</button>
+                <p class="mb-3 d-grid center">Silahkan daftar terlebih dahulu ;)</p>
+                <li class="mb-3 d-grid">
+                    <a href="/sesi/register" class="btn btn-primsry text-center border mx-auto" type="submit">Sing in</a>
                 </li>
             </div>
         </form>

@@ -28,7 +28,7 @@ class loginController extends Controller
 
         $PSG =[
             'email'=>$request->email,
-            'password'=>$request->password
+            'password'=>$request->password,
         ];
         
         if (Auth::attempt( $PSG )) {
@@ -73,13 +73,13 @@ class loginController extends Controller
         
         $PSG =[
             'email'=>$request->email,
-            'password'=>$request->password
+            'password'=>$request->password,
         ];
 
         if (Auth::attempt( $PSG )) {
             return redirect('sesi')->with('success', Auth::User()->name,'Berhasil Login');
         } else{
-            return redirect('sesi')->withErrors('Username dan Password yang dimasukkan tidak valid');
+            return redirect('sesi/register')->withErrors('Username dan Password yang dimasukkan tidak valid');
         };
      }
 }
