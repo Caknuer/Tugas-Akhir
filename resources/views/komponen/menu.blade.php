@@ -9,7 +9,7 @@
       </li>
       <li class="nav-item">
         <a href="/sesi/logout" class="nav-link">Logout</a>
-      </li>>
+      </li>
     </ul>
   </header>
   

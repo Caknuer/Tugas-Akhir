@@ -4,7 +4,7 @@
 
 <!-- LOGIN -->
     <div class="w-50 center border rounded px-3 py-3 mx-auto">
-        <a href="{{ url('sesi')}}" class=" btn btn-secondary"><< kembali</a>
+        <a href="{{ url('sesi')}}" class=" btn btn-secondary">< kembali</a>
         <h1>Register</h1>
         <form action="{{ url('sesi/create')}}" method="post">
             @csrf
